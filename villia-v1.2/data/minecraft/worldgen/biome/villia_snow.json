@@ -1,0 +1,83 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "sky_color": 12768501,
+    "fog_color": 15790847,
+    "water_color": 8429275,
+    "water_fog_color": 4671360,
+    "foliage_color": 8171629,
+    "grass_color": 8166779
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave"
+    ]
+  },
+  "starts": [
+    "minecraft:igloo",
+    "minecraft:village_snowy",
+    "minecraft:buried_treasure"
+  ],
+  "features": [
+    [
+      "minecraft:ore_emerald"
+    ],
+    [
+      "minecraft:ore_emerald"
+    ],
+    [
+      "minecraft:ore_emerald"
+    ],
+    [
+      "minecraft:ore_emerald"
+    ],
+    [
+      "minecraft:ore_emerald"
+    ],
+    [
+      "minecraft:ore_emerald"
+    ],
+    [
+      "minecraft:ore_emerald"
+    ],
+    [
+      "minecraft:ore_emerald"
+    ],
+    [
+      "minecraft:spring_water",
+      "minecraft:patch_pumpkin",
+      "minecraft:patch_grass_plain",
+      "minecraft:patch_tall_grass_2",
+      "minecraft:patch_sugar_cane",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:flower_plain_decorated",
+      "minecraft:plain_vegetation"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "spawners": {
+    "ambient": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "category": "icy",
+  "precipitation": "snow",
+  "surface_builder": "minecraft:grass",
+  "scale": 0.4,
+  "downfall": 0.4,
+  "depth": 0.12,
+  "temperature": 0.1,
+  "player_spawn_friendly": true,
+  "spawn_costs": {}
+}
